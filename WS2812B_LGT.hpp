@@ -1,8 +1,13 @@
-#ifndef WS2812BStrip_H
-#define WS2812BStrip_H
+#ifndef WS2812B_LGT_H
+#define WS2812B_LGT_H
 
 #include <stdint.h>
-namespace WS2812B {
+
+extern const unsigned char pinBit[];
+extern const unsigned char pinAddr[];
+
+
+namespace WS2812B_LGT {
     struct LED {
             uint8_t green;
             uint8_t red;
