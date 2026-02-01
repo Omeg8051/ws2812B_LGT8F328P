@@ -5,12 +5,12 @@
   demonstrating several ways to manipulate the LEDs
 
 */
-#include <WS2812BStrip.h>
+#include <WS2812B_LGT.hpp>
 #include <Arduino.h>
 #define LEDSPIN 5
-#define LEDSIZE 60
+#define LEDSIZE 8
 
-using namespace WS2812B;
+using namespace WS2812B_LGT;
 
 LED lights[LEDSIZE];
 LED single;

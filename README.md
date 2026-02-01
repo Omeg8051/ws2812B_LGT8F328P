@@ -7,9 +7,7 @@ This is a library for the Arduino for controlling WS2812B LED strips
 
 ## Supported Platforms
 
-This library currently supports any board based on the ATmega168,
-ATmega328P, ATmega32U4, or ATmega2560 which runs at 8 MHz, 16 MHz, or
-20 MHz.
+This library currently supports any board based on the LGT8F328P which runs at 8 MHz, 16 MHz, 20 MHz, or 32 MHz.
 
 ## Getting Started
 
